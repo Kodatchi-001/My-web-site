@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#520c08;
+}
+header{
+    background-color: transparent;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color:#520c08;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-size: large;
+    padding-left: 10px;
+}
+header a:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.info{
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+.position{
+    margin-top: 110px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    width:500px;
+}
+.info h1{
+    color: black;
+   font-size: 60px;
+    font-weight: 900;
+}
+img{
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px white;
+    animation-name: mov;
+    animation-duration: 5s;
+}
+@keyframes mov{
+    from {margin-bottom: 1000px;}
+      to {margin-top: 40px;}
+  }
+.icon a{
+   font-size: xx-large;
+   color: white;
+  padding-right: 10px;
+}
+.content{
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+.content h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+    text-decoration: underline#520c08;
+}
+.content-div{
+    font-size: larger;
+    height: 200px;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.card{
+    background-color: gray;
+    height: 80vh;
+}
+.card span{
+    color:#520c08;
+}
+.card h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+    text-decoration: underline#520c08;
+}
+.card-bg{
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 300px;
+    margin-left: 230px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.card-info{
+    background-color: #520c08;
+    width: 210px;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px white;
+}
+.serv{
+    background-color:#520c08;
+    height: 90vh;
+}
+.serv h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    text-decoration: underline#000000;
+}
+.serv-div{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serv-position{
+    height: 80vh;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.serv-card{
+    background-color: #000000;
+    width: 250px;
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
