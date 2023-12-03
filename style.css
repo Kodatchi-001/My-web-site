@@ -5,28 +5,28 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color:#520c08;
+    background-color:#081b29;
 }
 header{
     background-color: transparent;
-    color:black;
+    color:white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 60px;
     position: fixed;
     width: 100%;
-    background-color:#520c08;
+    background-color:#081b29;
 }
 header a{
     text-decoration: none;
-    color: black;
+    color:white;
     padding-right: 10px;
     font-size: large;
     padding-left: 10px;
 }
 header a:hover{
-    background-color: white;
+    background-color: rgb(87, 87, 87);
     border-radius: 10px;
 }
 .info{
@@ -43,12 +43,18 @@ header a:hover{
     margin-bottom: 100px;
     width:500px;
 }
+.position p{
+    margin-bottom: 10px;
+    font-weight: 900;
+    line-height: 20px;
+
+}
 .info h1{
-    color: black;
+    color:  rgb(87, 87, 87);
    font-size: 60px;
     font-weight: 900;
 }
-img{
+.img-home img{
     margin-top: 40px;
     border-radius: 50%;
     box-shadow: 0px 0px 30px white;
@@ -74,31 +80,32 @@ img{
     text-align: center;
     padding-top: 20px;
     font-size: 45px;
-    text-decoration: underline#520c08;
+    text-decoration: underline white;
 }
 .content-div{
     font-size: larger;
     height: 200px;
     padding-left: 300px;
     padding-top: 100px;
+    font-weight: 900;
 }
 .card{
     background-color: gray;
     height: 80vh;
 }
 .card span{
-    color:#520c08;
+    color:#081b29;
 }
 .card h1{
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 20px;
     font-size: 45px;
-    text-decoration: underline#520c08;
+    text-decoration: underline black;
 }
 .card-bg{
     background-color: rgb(0, 0, 0);
-    width: 1000px;
+    width: 70vw;
     height: 300px;
     margin-left: 230px;
     margin-right: 300px;
@@ -111,7 +118,9 @@ img{
     border-radius: 20px;
 }
 .card-info{
-    background-color: #520c08;
+    background-color:#081b29;
+    color: white;
+    font-size: 20px;
     width: 210px;
     height: 120px;
     border-radius: 20px;
@@ -121,7 +130,7 @@ img{
     box-shadow: 0px 0px 10px white;
 }
 .serv{
-    background-color:#520c08;
+    background-color:#081b29;
     height: 90vh;
 }
 .serv h1{
@@ -140,21 +149,29 @@ img{
 }
 .serv-position{
     height: 80vh;
-    width: 800px;
+    width: 85vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.serv-card{
-    background-color: #000000;
-    width: 250px;
-    height: 260px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.serv-position a img{
+    border: 10px solid black;
+    width: 25vw;
+    height: 30vh;
+    filter: grayscale(100%);
+    transition: 0.5s ease-in;
 }
+.serv-position img:hover{
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: grayscale(0);
+    transform: scale(1.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
 
