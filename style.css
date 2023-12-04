@@ -157,20 +157,56 @@ header a:hover{
     justify-content: space-between;
 }
 .serv-position a img{
-    border: 10px solid black;
+  
     width: 25vw;
     height: 30vh;
-    filter: grayscale(100%);
-    transition: 0.5s ease-in;
 }
-.serv-position img:hover{
-    margin-left: 5px;
-    margin-right: 5px;
-    filter: grayscale(0);
-    transform: scale(1.1);
-    margin-left: 20px;
-    margin-right: 20px;
-}
+.card-2 {
+    max-width: 400px;
+    width: 100%;
+    margin-left:-10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card-2 img {
+    width: 100%;
+    height: 100%;
+    border: 10px solid black;
+    
+  }
+.dark-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    transition: 0.8s ease-in-out;
+    opacity: 0;
+  }
+
+  .dark-background:hover {
+    opacity: 1;
+  }
+
+  .dark-background h1 {
+    color: white;
+    margin-top: 15px;
+  }
+  .dark-background p {
+    color: rgb(135, 135, 135);
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  
+
 
 
 
