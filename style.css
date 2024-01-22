@@ -1,213 +1,198 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-transform: capitalize;
     scroll-behavior: smooth;
 }
-body{
-    background-color:#081b29;
+
+body {
+    background-color: #bdbdbd;
 }
-header{
+
+header {
     background-color: transparent;
-    color:white;
+    color: rgb(0, 0, 0);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 60px;
     position: fixed;
     width: 100%;
-    background-color:#081b29;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px black;
 }
-header a{
+
+header a {
     text-decoration: none;
-    color:white;
+    color: orange;
     padding-right: 10px;
     font-size: large;
     padding-left: 10px;
+    transition: 0.5s ease-in;
 }
-header a:hover{
-    background-color: rgb(87, 87, 87);
-    border-radius: 10px;
-}
-.info{
-    color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
 
+header a:hover {
+    color: black;
 }
-.position{
-    margin-top: 110px;
-    margin-right: 250px;
-    margin-bottom: 100px;
-    width:500px;
+
+.info {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./assets/backround\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.position p{
+
+.position {
+    text-align: center;
+}
+
+.position p {
     margin-bottom: 10px;
     font-weight: 900;
     line-height: 20px;
 
 }
-.info h1{
-    color:  rgb(87, 87, 87);
-   font-size: 60px;
+
+.info h1 {
+    font-size: 30px;
     font-weight: 900;
+    margin-bottom: 0.5vh;
+
 }
-.img-home img{
-    margin-top: 40px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 30px white;
-    animation-name: mov;
-    animation-duration: 5s;
+
+.info h2 {
+    font-size: 60px;
+    margin-bottom: 0.5vh;
+    color: rgb(255, 196, 85);
 }
+
+/*
+animation-name: mov;
 @keyframes mov{
     from {margin-bottom: 1000px;}
-      to {margin-top: 40px;}
+      to {margin-top: 10px;}
   }
-.icon a{
-   font-size: xx-large;
-   color: white;
-  padding-right: 10px;
+*/
+.icon a {
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    transition: 0.5s ease-in;
 }
-.content{
-    height: 60vh;
-    background-color: black;
-    color: white;
+
+.icon a:hover {
+    color: orange;
+
 }
-.content h1{
-    color: white;
+
+#page-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.img-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2 img {
+    border-radius: 20px;
+    width: 25vw;
+    height: 50vh;
+    box-shadow: 20px 20px 30px;
+}
+
+.info-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-2-content {
+    width: 20vw;
     text-align: center;
-    padding-top: 20px;
-    font-size: 45px;
-    text-decoration: underline white;
 }
-.content-div{
-    font-size: larger;
-    height: 200px;
-    padding-left: 300px;
-    padding-top: 100px;
+
+.info-2-content h1 {
+    width: 100%;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+    color: orange;
+    margin-left: 4vw;
+}
+
+.info-2-content p {
+    width: 28vw;
     font-weight: 900;
+    font-size: 1.2vw;
+}
+
+#page-2 {
+    width: 100%;
+    height: 100%;
+}
+.page2-content{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.page2-content h1{
+    color: orange;
+    font-size: 4vw;
+}
+.page2-content-2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    margin-top: 5vh;
 }
 .card{
-    background-color: gray;
-    height: 80vh;
-}
-.card span{
-    color:#081b29;
-}
-.card h1{
-    color: black;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 45px;
-    text-decoration: underline black;
-}
-.card-bg{
-    background-color: rgb(0, 0, 0);
-    width: 70vw;
-    height: 300px;
-    margin-left: 230px;
-    margin-right: 300px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    margin-top: 50px;
+    width: 20vw;
+    height: 40vh;
+    background-color: rgb(43, 43, 43);
     border-radius: 20px;
-}
-.card-info{
-    background-color:#081b29;
     color: white;
-    font-size: 20px;
-    width: 210px;
-    height: 120px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 10px white;
-}
-.serv{
-    background-color:#081b29;
-    height: 90vh;
-}
-.serv h1{
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 45px;
-    text-decoration: underline#000000;
-}
-.serv-div{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.serv-position{
-    height: 80vh;
-    width: 85vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+}.card p{
+    width: 15vw;
 }
-.serv-position a img{
-  
-    width: 25vw;
-    height: 30vh;
-}
-.card-2 {
-    max-width: 400px;
-    width: 100%;
-    margin-left:-10px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-
-  .card-2 img {
+.footer{
     width: 100%;
     height: 100%;
-    border: 10px solid black;
+}
+footer{
+    width: 100%;
+    height: 16vh;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px black;
+    text-align: center;
+    color: orange;
+}
+footer h1{
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    font-size: 2.5vw;
+}
+footer a{
+    font-size: 2.5vw;
+    filter: grayscale(100%);
     
-  }
-.dark-background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.781);
-    transition: 0.8s ease-in-out;
-    opacity: 0;
-  }
-
-  .dark-background:hover {
-    opacity: 1;
-  }
-
-  .dark-background h1 {
-    color: white;
-    margin-top: 15px;
-  }
-  .dark-background p {
-    color: rgb(135, 135, 135);
-    margin-left: 90px;
-    margin-top: 10px;
-    font-size: 30px;
-  }
-  
-  
-
-
-
-
-
+}
