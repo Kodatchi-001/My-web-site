@@ -108,7 +108,7 @@ animation-name: mov;
 
 .img-2 img {
     border-radius: 30px;
-    width: 25vw;
+    width: 22vw;
     height: 50vh;
     box-shadow: 20px 20px 30px;
 }
@@ -280,6 +280,8 @@ footer a{
     }
     header h1{
         font-size: 4.5vw;
+        margin-left: auto;
+        margin-right: auto;
     }
     header a {
         text-decoration: none;
@@ -288,6 +290,10 @@ footer a{
         font-size: large;
         padding-left: 10px;
         transition: 0.5s ease-in;
+    }
+    .header-content{
+        margin-left: auto;
+        margin-right: auto;
     }
     
     header a:hover {
@@ -382,7 +388,7 @@ footer a{
         flex-wrap: wrap;
     }
     .card{
-        width: 50vw;
+        width: 60vw;
         height: 100%;
         background-color: rgb(43, 43, 43);
         border-radius: 20px;
@@ -405,12 +411,16 @@ footer a{
     .card h2{
         width: 100%;
         text-align: center;
+        margin-top: 1.5vh;
     }
     .card p{
         width: 100%;
         height: 100%;
         display: flex;
+        font-size: 4vw;
         justify-content: center;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
     }
     .card:hover{
         transform: scale(1.1);
@@ -427,7 +437,7 @@ footer a{
         align-items: center;
     }
     .card-contact{
-        width: 70vw;
+        width: 80vw;
         height: 50vh;
         background-color: goldenrod;
         border-radius: 20px;
