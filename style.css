@@ -20,6 +20,7 @@ header {
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0px 0px 15px black;
+    z-index: 999;
 }
 
 header a {
@@ -106,7 +107,7 @@ animation-name: mov;
 }
 
 .img-2 img {
-    border-radius: 20px;
+    border-radius: 30px;
     width: 25vw;
     height: 50vh;
     box-shadow: 20px 20px 30px;
@@ -141,23 +142,32 @@ animation-name: mov;
 
 #page-2 {
     width: 100%;
-    height: 100%;
-}
-.page2-content{
-    width: 100%;
-    height: 10vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.page2-content h1{
+
+.page2-content h1 {
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline orange;
+}
+.page2-content span{
     color: orange;
     font-size: 4vw;
+    justify-content: center;
+    text-decoration: underline;
+
 }
 .page2-content-2{
     width: 100%;
     height: 50vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 4vw;
     margin-top: 5vh;
 }
@@ -171,8 +181,65 @@ animation-name: mov;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}.card p{
+    transition: 1s ease-in;
+}
+.card img{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px 20px 0px 0px;
+    filter: grayscale(100%);
+    margin-top: -1.5vh;
+    transition: 1s ease-in;
+}
+
+.card p{
     width: 15vw;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 30px black;
+    img{
+        filter: grayscale(0);
+    }
+}
+#page-3{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-contact{
+    width: 30vw;
+    height: 50vh;
+    background-color: goldenrod;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-left: -5vw;
+    margin-top: -2vh;
+}
+.content-form{
+    font-size: 1.3vw;
+}
+input{
+    width: 15vw;
+    height: 2.5vh;
+    color: white;
+    font-weight: 700;
+    background-color: gray;
+}
+.submit{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 2.5vh;
+}
+.para{
+    height: 10vh;
 }
 .footer{
     width: 100%;
@@ -180,7 +247,7 @@ animation-name: mov;
 }
 footer{
     width: 100%;
-    height: 16vh;
+    height: 100%;
     background-color: #ffffff;
     box-shadow: 0px 0px 15px black;
     text-align: center;
