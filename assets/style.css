@@ -42,7 +42,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(./assets/backround\ \(2\).jpg);
+    background-image: url(./backround\ \(2\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -108,7 +108,7 @@ animation-name: mov;
 
 .img-2 img {
     border-radius: 30px;
-    width: 22vw;
+    width: 24vw;
     height: 50vh;
     box-shadow: 20px 20px 30px;
 }
@@ -146,6 +146,10 @@ animation-name: mov;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(./bg-2\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page2-content h1 {
@@ -203,48 +207,7 @@ animation-name: mov;
         filter: grayscale(0);
     }
 }
-#page-3{
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card-contact{
-    width: 30vw;
-    height: 50vh;
-    background-color: goldenrod;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-form{
-    margin-left: -5vw;
-    margin-top: -2vh;
-}
-.content-form{
-    font-size: 1.3vw;
-}
-input{
-    width: 15vw;
-    height: 2.5vh;
-    color: white;
-    font-weight: 700;
-    background-color: gray;
-}
-.submit{
-    width: 10vw;
-    height: 5vh;
-    margin-top: 2.5vh;
-}
-.para{
-    height: 10vh;
-}
-.footer{
-    width: 100%;
-    height: 100%;
-}
+
 footer{
     width: 100%;
     height: 100%;
@@ -256,10 +219,10 @@ footer{
 footer h1{
     margin-bottom: 2vh;
     padding-top: 2vh;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 footer a{
-    font-size: 2.5vw;
+    font-size: 2vw;
     filter: grayscale(100%);
     
 }
@@ -428,48 +391,6 @@ footer a{
         img{
             filter: grayscale(0);
         }
-    }
-    #page-3{
-        width: 100%;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .card-contact{
-        width: 80vw;
-        height: 50vh;
-        background-color: goldenrod;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    form{
-        margin-left: -5vw;
-        margin-top: -2vh;
-    }
-    .content-form{
-        font-size: 5.5vw;
-    }
-    input{
-        width: 40vw;
-        height: 2.5vh;
-        color: white;
-        font-weight: 700;
-        background-color: gray;
-    }
-    .submit{
-        width: 15vw;
-        height: 5vh;
-        margin-top: 2.5vh;
-    }
-    .para{
-        height: 10vh;
-    }
-    .footer{
-        width: 100%;
-        height: 100%;
     }
     footer{
         width: 100%;
