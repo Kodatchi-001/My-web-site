@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 * {
     margin: 0;
     padding: 0;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
 }
 
 #page-3 {
@@ -17,19 +20,19 @@
 }
 
 .card-contact {
-    width: 30vw;
-    height: 50vh;
+    width: 22vw;
+    height: 45vh;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
+    background-color: rgba(185, 120, 0, 0.721);
     border: 2px solid;
 }
 
 form {
-    margin-left: -5vw;
-    margin-top: -2vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-form {
@@ -48,6 +51,7 @@ input {
     width: 10vw;
     height: 5vh;
     margin-top: 2.5vh;
+    border-radius: 10px;
 }
 
 .para {
@@ -70,7 +74,7 @@ input {
 
     .card-contact {
         width: 60vw;
-        height: 50vh;
+        height: 45vh;
         border-radius: 20px;
         display: flex;
         justify-content: center;
@@ -79,17 +83,12 @@ input {
         border: 2px solid;
     }
 
-    form {
-        margin-left: -5vw;
-        margin-top: -2vh;
-    }
-
     .content-form {
         font-size: 5.5vw;
     }
 
     input {
-        width: 40vw;
+        width: 45vw;
         height: 2.5vh;
         color: white;
         font-weight: 700;
@@ -97,9 +96,11 @@ input {
     }
 
     .submit {
-        width: 15vw;
+        width: 20vw;
         height: 5vh;
-        margin-top: 2.5vh;
+        margin-top: 2vh;
+        margin-left: 13vw;
+        font-size: 4vw;
     }
 
     .para {
