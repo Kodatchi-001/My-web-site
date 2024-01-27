@@ -113,7 +113,7 @@ animation-name: mov;
     border-radius: 30px;
     width: 24vw;
     height: 50vh;
-    box-shadow: 20px 20px 30px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.564);
 }
 
 .info-2 {
