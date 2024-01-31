@@ -137,6 +137,7 @@ animation-name: mov;
     margin-left: 4vw;
 }
 
+
 .info-2-content p {
     width: 28vw;
     font-weight: 900;
@@ -445,7 +446,7 @@ footer a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 7.5vh;
+        height: 10vh;
         position: fixed;
         width: 100%;
         flex-wrap: wrap;
@@ -455,7 +456,7 @@ footer a {
     }
 
     header h1 {
-        font-size: 4.5vw;
+        font-size: 3vw;
         margin-left: auto;
         margin-right: auto;
         color: rgb(88, 58, 0);
@@ -465,7 +466,7 @@ footer a {
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding-right: 10px;
-        font-size: large;
+        font-size: 1.8vw;
         padding-left: 10px;
         transition: 0.5s ease-in;
     }
@@ -487,18 +488,20 @@ footer a {
     }
 
     .img-2 {
-        width: 100%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .img-2 img {
         border-radius: 30px;
-        width: 50vw;
-        height: 40vh;
+        width: 30vw;
+        height: 45vh;
         box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.699);
     }
 
