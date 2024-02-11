@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-transform: capitalize;
     scroll-behavior: smooth;
     font-family: 'Playfair Display', serif;
-}
-
-body {
-    background-color: #818181;
 }
 
 header {
@@ -107,6 +104,21 @@ animation-name: mov;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: scolle-1 linear forwards;
+    animation-timeline: view();
+    animation-range: 0px 600px;
+}
+
+@keyframes scolle-1 {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .img-2 img {
@@ -125,23 +137,23 @@ animation-name: mov;
 }
 
 .info-2-content {
-    width: 20vw;
-    text-align: center;
+    width: 30vw;
 }
 
 .info-2-content h1 {
     width: 100%;
     font-size: 3vw;
     margin-bottom: 2vh;
-    color: rgb(255, 255, 255);
-    margin-left: 4vw;
+    color: orange;
+    text-align: center;
 }
 
 
 .info-2-content p {
-    width: 28vw;
+    width: 100%;
     font-weight: 900;
     font-size: 1.2vw;
+    text-align: center;
 }
 
 #page-2 {
@@ -439,6 +451,7 @@ footer a {
 
 
 }
+
 @media (min-width: 602px) and (max-width: 1300px) {
     header {
         background-color: transparent;
@@ -479,6 +492,7 @@ footer a {
     header a:hover {
         color: black;
     }
+
     #page-1 {
         width: 100%;
         height: 100%;
@@ -536,6 +550,7 @@ footer a {
         font-weight: 900;
         font-size: 2vw;
     }
+
     #page-2 {
         width: 100%;
         height: 100%;
@@ -614,6 +629,7 @@ footer a {
         margin-top: 1.5vh;
         margin-bottom: 1.5vh;
     }
+
     footer {
         width: 100%;
         height: 100%;
@@ -634,5 +650,5 @@ footer a {
         filter: grayscale(100%);
 
     }
-    
+
 }
